@@ -1,0 +1,112 @@
+:root{
+    --cor0: #ffc49da6;
+    --cor1: #fc5300;
+    --cor2: #fc6400;
+    --cor3: #f55217;
+    --cor4: #fc3500;
+    --cor5: #af1b01;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+
+
+}
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: var(--cor0);
+          position: relative;
+        
+        }
+        header{
+            background-image: url(IMG_1661604795367.jpg);
+            padding: 10px;
+            color: #ffff;
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 150px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        header>h1{
+            font-size: 3.5em;
+           
+        }
+        header>p{
+            padding-top:20px;
+        }
+        nav{
+    background-color: #fc3500;
+    padding: 10px;
+    position: sticky;
+    top: -1px;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    border-radius: 6px;
+    background-color: var(--cor0);
+    color: #fc3500;
+    transition-duration: .3s;
+}
+main{
+    background-color: white;
+    min-width: 30px;
+    max-width: 1050px;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.521);
+    
+}
+article h1{
+    font-size: 40px;
+    text-align: center;
+    color: #f55217;
+    font-weight: bold;
+}
+article p{
+    font-size: 12px;
+    text-align: center;
+}
+article a.ext{
+    color: rgb(206, 96, 22);
+    text-decoration: none;
+
+
+}
+
+img{
+    display: block;
+ margin: auto;
+}
+
+.desc{
+    text-align: center;
+    padding: 2px;
+    font-size: 0.9em;
+}
+
+footer{
+    padding: 10px;
+    height: 200px;
+    color: #ffff;
+    background-color: #58281a;
+}
+
+a.ext::after{
+    content: '\00A0\1F517';
+}
+
+footer a{
+    color: rgb(206, 96, 22);
+    font-weight: bold;
+   text-decoration: none;
+    }
